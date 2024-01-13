@@ -1,0 +1,138 @@
+.mainFooter{
+  margin-top: 2%;
+}
+.topdiv {
+  display: flex;
+  justify-content: center;
+}
+.fistFooter {
+  background-color: rgb(114, 150, 171);
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 20%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.fistFooter h2 {
+  gap: 5px;
+  display: flex;
+  align-self:  center;
+}
+.fistFooter h2 span {
+  color: rgb(209, 226, 235);
+}
+.fistFooter p {
+  display: flex;
+  align-self: center;
+}
+.emailbottom {
+  display: flex;
+  justify-content: center;
+}
+.emailFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.emailFooter input {
+  border: none;
+}
+.emailFooter .iconss {
+  margin: 5px 5px;
+  color: black;
+}
+.secondFooter{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    background-color: rgb(206, 226, 235);
+    margin-top: 10%;
+    padding-top: 7%;    
+}
+.head{
+    font-weight: 700;
+}
+.option{
+  border: none;
+}
+.lastFooter{
+  padding: 0 5%;
+}
+.topLast{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondP{
+  color: grey;
+  font-size: small;
+}
+.lastFooter{
+  margin-top: 30px;
+}
+
+@media (max-width: 1450px) {
+    .fistFooter {
+        width: 40%;
+        
+    }
+}
+@media (max-width: 1250px) {
+    /* .fistFooter {
+        width: 0%;
+    } */
+    .secondFooter{
+        padding-top: 10%;
+    }
+}
+@media (max-width: 950px) {
+    .secondFooter{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-bottom: 5%;
+    }
+    .fistFooter {
+        width: 50%;
+    }
+    .imagesss img{
+      width: 150px;
+    }
+
+}
+@media (max-width: 880px) {
+    .fistFooter p{
+        font-size: small;
+    }
+}
+@media (max-width: 720px) {
+  .secondFooter{
+    padding-bottom: 40px;
+  }
+  .lastFooter{
+    margin-top: 30px;
+  }
+  .topdiv{
+    display: none;
+  }
+  .pfisrt{
+    display: none;
+  }
+  .bottomFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

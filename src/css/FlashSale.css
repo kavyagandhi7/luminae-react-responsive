@@ -1,0 +1,138 @@
+.flashHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+
+.mainflash{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 5%;
+    gap: 10px;  
+}
+.flashCart{
+    overflow: hidden;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 0 7%;
+    box-shadow: 0px 2px 7px -3px;
+}
+.flashTime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 5px 0 5px;
+}
+.flashTime .top{
+    color: gray;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.flashTime .top .time{
+    color: black;
+    gap: 19px;
+    display: flex;
+
+}
+.timeLetter{
+    display: flex;
+    gap: 27px;
+}
+.flashImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flashImg img{
+height: 150px;
+
+}
+.FLASHname{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.flashImg{
+    width:100%;
+}
+
+
+.flashdetails{
+    padding: 0 40px;
+   /* display: flex;     */
+   /* flex-direction: column; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   
+}
+.flashdetails .star{
+    color: rgb(255, 213, 0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.flashdetails .star span{
+    color:black;
+    /* padding-top: 1px; */
+    padding-left: 6px;
+}
+.flashdetails .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price p{
+    color: red;
+    font-size: 20px;
+}
+.price .discout{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+@media (max-width: 1250px) {
+    .mainflash{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 0 4%;
+        gap: 8px;  
+    }
+}
+@media (max-width: 1200px) {
+    .mainflash{
+        display: grid;
+        grid-template-columns:  auto auto  ;
+        padding: 0 4%;
+        gap: 8px;  
+    }
+    .flashdetails{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 720px) {
+    .flashHeader{
+        margin-top: 50%;
+    }
+    .mainflash{
+        display: flex;
+        overflow: hidden;
+       
+    }
+    .flashdetails p{
+        color: black;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .flashCart{
+        margin: 3px 0;
+        padding: 0 1%;
+        
+    }
+
+}

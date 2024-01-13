@@ -1,0 +1,186 @@
+.mainSlider {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.imgSLIDER {
+  width: 40%;
+  height: 100%;
+}
+
+.imgSLIDER img {
+  width: 100%;
+  height: 100%;
+
+}
+.PopupSlider {
+  position: absolute;
+  margin-left: 28.5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 20px;
+}
+.bottom{
+  background-color: black;
+  color: white;
+  width: 119%;
+  justify-content: center;
+  display: flex;
+  padding: 15px 0;
+}
+.top h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+  padding: 15px 0;
+}
+.top h2 span{
+  color: RED;
+}
+.detailSlider {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  flex-direction: column;
+  background: rgb(120, 166, 233);
+  gap: 30px;
+}
+.name {
+  color: white;
+  font-size: 32px;
+}
+.PRICE{
+  color: white;
+  font-size: 22px;
+}
+
+.button {
+  display: flex;
+  padding: 0 45px;
+  border-radius: 5px;
+  background: rgb(65, 114, 220);
+  border:none;
+  color: white;
+  gap: 5px;
+
+}
+.button .iconDetail{
+  padding-top:2px ;
+}
+@media (max-width: 1250px) {
+  .name {
+    color: white;
+    font-size: 30px;
+  }
+  .PRICE{
+    color: white;
+    font-size: 20px;
+  }
+  .PopupSlider {
+    padding: 0 10px;
+  }
+  .bottom{
+    width: 109%;
+  }
+}
+@media (max-width: 1200px) {
+  .name {
+    color: white;
+    font-size: 29px;
+  }
+  .PRICE{
+    color: white;
+    font-size: 19px;
+  }
+  .PopupSlider {
+    padding: 0 8px;
+  }
+  .bottom{
+    width: 105%;
+  }
+}
+@media (max-width: 1150px) {
+  .name {
+    color: white;
+    font-size: 28px;
+  }
+  .PRICE{
+    color: white;
+    font-size: 18px;
+  }
+  .PopupSlider {
+    padding: 0 6px;
+  }
+  .bottom{
+    width: 103%;
+  }
+}
+@media (max-width: 1100px) {
+  .name {
+    color: white;
+    font-size: 27px;
+  }
+  .PRICE{
+    color: white;
+    font-size: 17px;
+  }
+  .PopupSlider {
+    padding: 0 4px;
+  }
+  .bottom{
+    width: 101%;
+  }
+}
+@media (max-width: 1050px) {
+  .name {
+    color: white;
+    font-size: 26px;
+  }
+  .PRICE{
+    color: white;
+    font-size: 16px;
+  }
+  .PopupSlider {
+    padding: 0 0px;
+  }
+  .bottom{
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .PopupSlider{
+    display: none;
+  }
+  .imgSLIDER {
+    width: 45%;
+    height: 100%;
+  }
+  .detailSlider{
+    width: 55%;
+  }
+}
+@media (max-width: 800px) {
+ 
+  .imgSLIDER {
+    width: 50%;
+    height: 100%;
+  }
+  .detailSlider{
+    width: 50%;
+  }
+}
+@media (max-width: 720px) {
+  .mainSlider{
+    display: none;
+  }
+
+}

@@ -1,0 +1,15 @@
+.MainCorousel{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+    background-color: #F7DDD0;
+}
+@media (max-width: 720px) {
+    .MainCorousel{
+        display: none;
+    }
+   
+}

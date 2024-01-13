@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+.TradingMustHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.mainTredingMust {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0 5%;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+.TradingMustCart {
+  width: 100%;
+  height: 100%;
+  
+}
+.TradingMustTop {
+  width: 100%;
+  height: 100%;
+}
+.TradingMustTop img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.TradingMustButtom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0 3%;
+  border-radius: 0 0 15px 15px;
+}
+.TradingMustButtom .buttont {
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+@media (max-width: 1300px) {
+  .TradingMustButtom .details h3 {
+    font-size: 18px;
+  }
+  .TradingMustButtom .buttont {
+    border: 1px solid white;
+    padding: 8px 18px;
+    border-radius: 5px;
+    /* font-size: 18px; */
+  }
+}
+@media (max-width: 1250px) {
+  .TradingMustButtom .details h3 {
+    font-size: 16px;
+  }
+  .TradingMustButtom .buttont {
+    border: 1px solid white;
+    padding: 6px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1200px) {
+  .mainTredingMust {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .TradingMustCart {
+    width: 100%;
+    height: 100%;
+  }
+  .TradingMustTop {
+    width: 100%;
+    height: 100%;
+  }
+  .TradingMustTop img {
+    width: 100%;
+    height: 335px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px 15px 0 0;
+  }
+}
+@media (max-width: 720px) {
+  .mainTredingMust{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+  .TradingMustCart{
+    min-width: 300px;
+
+  }
+  .TradingMustTop{
+    height: 74%;
+  }
+}

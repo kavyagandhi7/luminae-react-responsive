@@ -1,0 +1,306 @@
+* {
+  box-sizing: border-box;
+}
+.mainHeader {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBarInner {
+  border: 1px solid black;
+  padding: 7px 16px;
+  border-radius: 4px;
+}
+.sreachSpan {
+  border: 1px solid black;
+}
+.selector {
+  border: none;
+  margin-right: 5px;
+}
+.seachIcon {
+  margin-left: 5px;
+}
+
+.serchInput {
+  border: none;
+}
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.iconpages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.mainSecondHeader{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    color: white;
+}
+.Category,.adspage,.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sigininput{
+    border: none;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+}
+.singincart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.iconSIgn{
+  padding-top: 5px;
+}
+.Sspan{
+    border: 1px solid white;
+    
+}
+#icontoggel ,#icontoggels{
+  display: none;
+  font-size: 30px;
+}
+.rouder{
+    margin-left: 10px;
+    background-color: aquamarine;
+    padding: 4px 10px;
+    border-radius: 100%;
+}
+.mainlastDIV{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+}
+.allCategry{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.allCategry p{
+  font-size: 16px;
+}
+.moabilsceen{
+  display: none;
+}
+@media (max-width: 1400px) {
+  .allCategry p{
+    font-size: 14px;
+  }
+}
+@media (max-width: 1300px) {
+  .allCategry p{
+    font-size: 13px;
+  }
+}
+@media (max-width: 1200px) {
+  .allCategry p{
+    font-size: 11px;
+  }
+}
+@media (max-width: 1060px) {
+  .mainHeader {
+    padding: 0 3%;
+  }
+}
+@media (max-width: 1000px) {
+  .mainHeader {
+    padding: 0 2%;
+  }
+}
+@media (max-width: 1150px) {
+  .adspage {
+    display: none;
+  }
+  .Sspan{
+    display: none;  
+ }
+ .allCategry{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 35px;
+}
+}
+@media (max-width: 888px) {
+  .allCategry{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .allCategry p{
+    font-size: 10px;
+  }
+}
+@media (max-width: 788px) {
+  .allCategry{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 12px;
+  }
+}
+@media (max-width: 980px) {
+  .mainHeader {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .allCategry{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+  .searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchBarInner {
+    border: 1px solid black;
+    padding: 5px 12px;
+    border-radius: 4px;
+  }
+  .sreachSpan {
+    border: 1px solid black;
+  }
+  .selector {
+    border: none;
+    margin-right: 5px;
+  }
+  .seachIcon {
+    margin-left: 5px;
+  }
+
+  .serchInput {
+    border: none;
+  }
+  .pages {
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .iconpages {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+  }
+  
+
+.Category,.signin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+}
+@media (max-width: 720px) {
+    .pages{
+      display: none;
+    }
+    .iconpages{
+      display: none;
+    }
+    #icontoggel{
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .mainSecondHeader{
+      display: none;
+    }
+    .mainlastDIV{
+      display: none;
+    }
+    .mainHeader{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .logo{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .searchBar{
+      width: 100%;
+    }
+    .searchBarInner{
+      width: 100%;
+    }
+    .serchInput{
+      width: 74%;
+    }
+    #icontoggels{
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .moabilsceen{
+      display: block;
+    }
+
+   
+}
+@media (max-width: 650px) {
+  .serchInput{
+    width: 70%;
+  }
+}
+@media (max-width: 490px) {
+  .serchInput{
+    width: 65%;
+  }
+}
+@media (max-width: 420px) {
+  .serchInput{
+    width: 60%;
+  }
+}
+@media (max-width: 390px) {
+  .serchInput{
+    width: 55%;
+  }
+}
+@media (max-width: 335px) {
+  .serchInput{
+    width: 50%;
+  }
+}
